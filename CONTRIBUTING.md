@@ -75,8 +75,7 @@ Atente-se para a seguir as orientações para a contribuição, principalmente:
 ](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 
 Após criar o seu Pull Request, nossa automação irá validar a sua submissão. Caso esteja tudo certo, será retornada uma mensagem indicado que seu PR foi aprovado. Do contrário, leia atentamente as orientações e verifique os arquivos modificados para saber se atende as instruções para contribuição.
-    
-    
+       
 ## Convenção de Commits 
 
 | Tipo de Commit |Descrição                                                            | Exemplo
@@ -88,6 +87,10 @@ Após criar o seu Pull Request, nossa automação irá validar a sua submissão.
 | `refactor`     | Realiza mudanças no código que não alteram a funcionalidade.         | `refactor: refactor at CLASSNAME`
 | `test`         | Adiciona ou modifica testes no projeto.                              | `test: add unit test for UserService`
 
+## COMANDOS DE CONFIGURAÇÃO 
+|Setar usuário|  git config --global user.name "NOME DO SEU USUÁRIO"
+|Setar email| git config --global user.email INFORMESEUEMAIL@gmail.com
+|Listar configurações|  git config --list
 
 ## Referências
 - [ANGULAR. Contributing to Angular](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md)
